@@ -33,6 +33,8 @@ public class SettingsActivity extends PreferenceActivity
         // TODO: Add preferences
 
         bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
+        bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
+
     }
 
     /**
@@ -68,7 +70,7 @@ public class SettingsActivity extends PreferenceActivity
             // For other preferences, set the summary to the value's simple string representation.
             preference.setSummary(stringValue);
         }
-       
+
         return true;
     }
 
