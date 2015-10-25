@@ -3,6 +3,7 @@ package com.example.android.sunshine.app;
 /**
  * Created by sultanyagboyaju on 9/26/15.
  */
+
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
